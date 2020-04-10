@@ -1,0 +1,438 @@
+/* css for predefined tags like h1,h2 etc. */
+
+body
+{
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+
+
+}
+
+h2
+{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+p
+{
+  width: 40%;
+  font-size: 1.2rem;
+  font-family: 'Merriweather', serif;
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Pacifico', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+line-height: 1.8rem;
+
+  margin: 10rem auto;
+  position: relative;
+
+
+
+}
+.last{
+  line-height: 1.4rem;
+}
+h3{
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for custom classes and ids */
+/* use the layout like if you write for intro, then all classes under intro write first */
+
+
+.intro
+{
+  text-align: center;
+  /* background-color: #b7fbff; */
+  background-image: url(pics/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+  /* background-image: url(pics/31185aed9953179e5558c1b778645ca6.jpg); */
+
+
+
+
+
+}
+
+.maintitle
+{
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  font-weight: lighter;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  color: black  ;
+  margin: 0 auto;
+
+}
+
+.intropara
+{
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+
+}
+
+.Prelude
+{
+  color:#22313F;
+  font-size: 3rem;
+  position: relative;
+  bottom: 2rem;
+}
+
+
+
+.memories
+{
+
+  background-color: #fff6be;
+  text-align: center;
+  overflow:hidden;
+  padding-bottom: 6rem;
+
+
+
+
+
+
+
+}
+
+.mem
+{
+    margin-top: 0;
+    padding-top: 5rem;
+    color: #006060;
+    margin-bottom: 4rem;
+
+}
+
+
+
+.odd
+{
+  float: right;
+  height: 18rem;
+  width: 24rem;
+  margin: 6.25rem 1.25rem auto auto;
+  border-radius: 0.9375rem;
+  position: relative;
+  right: 1.875rem;
+
+
+
+}
+
+.odd:hover
+{
+
+  height: 21rem;
+  width: 28rem;
+
+
+  transition: width 1s, height 1s;
+
+}
+
+.even
+{
+  float: left;
+  height: 18rem;
+  width: 24rem;
+  margin: 5rem auto auto 1.25rem ;
+  border-radius: 0.875rem;
+  position: relative;
+  left: 1.875rem;
+
+}
+
+.even:hover
+{
+
+  height: 21rem;
+  width: 28rem;
+
+    transition: width 1s, height 1s;
+
+
+
+}
+.lasc{
+  height: 21rem;
+  width: 20rem;
+}
+.lasc:hover{
+  height: 23rem;
+  width: 22rem;
+}
+
+.chai{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  /* margin: auto auto 30px auto; */
+
+  border: 0.3125rem solid black;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0.625rem;
+
+
+  /* display: none; */
+
+
+}
+
+
+
+
+
+
+
+.maggi{
+
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+
+  /* margin: 30px auto; */
+  border: 0.3125rem solid black;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0.625rem;
+
+
+
+
+}
+
+
+
+
+.shiv{
+padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  /* margin: 30px auto; */
+  /* background-color: #94d3ac; */
+border: 0.3125rem solid black;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0.625rem;
+}
+
+.newyear{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  /* margin: 30px auto; */
+  /* background-color: #94d3ac; */
+border: 0.3125rem solid black;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0.625rem;
+}
+
+.bird{
+ padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  /* margin: 30px auto; */
+  /* background-color: #94d3ac; */
+border: 0.3125rem solid black;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0.625rem;
+}
+
+.lays{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  /* margin: 30px auto; */
+  /* background-color: #94d3ac; */
+border: 0.3125rem solid black;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0.625rem;
+}
+
+.breakfast{
+
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  /* margin: 30px auto; */
+  /* background-color: #94d3ac; */
+border: 0.3125rem solid black;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0.625rem;
+
+}
+
+.goldibday{
+
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  /* margin: 30px auto; */
+  /* background-color: #94d3ac; */
+border: 0.3125rem solid black;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0.625rem;
+
+
+}
+
+.left{
+  position: relative;
+  right: 9.375rem;
+  margin-top: 4.375rem;
+  /* border-style: inset; */
+
+}
+
+.right{
+  position: relative;
+  left: 9.375rem;
+  margin-top: 4.375rem;
+
+
+}
+
+.ll
+{
+  margin-left: 7.5rem;
+  margin-right: 3.75rem;
+  height: 30rem;
+  background-color: #effcef;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+}
+
+.ll:hover
+{
+
+  background-color: #94d3ac;
+
+
+}
+
+.rr
+{
+  margin-right: 7.5rem;
+  margin-left: 3.75rem;
+  height: 30rem;
+  background-color: #ccedd2;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+
+
+}
+
+
+.rr:hover
+{
+  background-color: #63b7af;
+
+}
+
+.photos
+{
+
+  background-color: #ffe0a3;
+
+
+
+}
+
+.vid
+{
+
+  background-color: #ffa1ac;
+  text-align: center;
+
+
+}
+
+.vid2
+{
+  margin-top: 0;
+  padding-top: 6.25rem;
+}
+
+.vid3
+{
+   margin-top: 5rem;
+   margin-bottom: 7.5rem;
+}
+
+.credits
+{
+
+  background-color: #b7fbff;
+  text-align: center;
+  /* margin: 0 auto; */
+
+  height: 14.375rem;
+  margin-bottom: 0;
+
+
+}
+
+.c1
+{
+  margin-top: 0;
+  position: relative;
+  top: 3.125rem;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 0;
+
+
+
+}
+
+.c2
+{
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  bottom: 6.25rem;
+  border-bottom: 0;
+  font-family: 'Pacifico', cursive;
+
+}
+
+.c3
+{
+  position: relative;
+  font-family: 'Pacifico', cursive;
+  border-bottom: 0;
+  margin: 0 auto;
+  bottom: 4rem;
+
+
+}
+
+.llh
+{
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 2.75rem;
+
+}
